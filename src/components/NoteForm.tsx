@@ -28,7 +28,7 @@ export default function NoteForm({ newNote, setNewNote, addNote, charRemaining, 
       <textarea className="w-full border border-gray-300 rounded-md p-2" placeholder="Note Body" value={newNote.body} onChange={handleBodyChange}></textarea>
 
       <button className="w-full bg-black text-white rounded-md p-2" onClick={addNote}>
-        Tambah Catatan
+        Add Note
       </button>
     </div>
   );
